@@ -1,0 +1,35 @@
+body {
+    margin: 0;
+    background-color: cyan;
+    color: aqua;
+    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+}
+
+header {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    gap: 10px;
+    background-color: black;
+    padding: 10px;
+    height: 100px;
+}
+
+header img {
+    width: 100px;
+    height: 100px;
+    border-radius: 50%;
+    object-fit: cover;
+}
+
+header h1 {
+    font-weight: bolder;
+    letter-spacing: 5px;
+}
+
+header > section:first-child {
+    display: flex;
+    align-items: center;
+    gap: 15px;
+}
+
