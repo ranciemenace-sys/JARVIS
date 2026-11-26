@@ -49,7 +49,6 @@ async def chat(request: ChatRequest):
 
     data = response.json()
         
-
     return {
         "user_message": user_message,
         "response": data["message"]["content"],
